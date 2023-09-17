@@ -22,8 +22,16 @@
         max-width: 20em;
         margin: 3em auto;
       }
+      div.video {
+        max-width: 40em;
+        margin: 3em auto;
+      }
       div.photo img {
         width: 100%;
+      }
+      div.photo p.caption,
+      div.video p.caption {
+        font-style: italic;
       }
       img.qrcode {
         display: block;
@@ -63,5 +71,13 @@
     i vostri amici e parenti: insieme possiamo ritrovarlo!
     <img src="qrcode.svg" class="qrcode"/>
     </p>
+    <div class="photo">
+      <img src="glitch_intero.jpg">
+      <p class="caption">Ha una coda decisamente lunga.</p>
+    </div>
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/EiplqZeG8eE?si=fugvXHD0BaeRojjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <p class="caption">Se sentite in giro questa canzoncina, è sicuramente lui!</p>
+    </div>
   </body>
 </html>
